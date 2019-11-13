@@ -1,6 +1,8 @@
 AWS Cognito Javascript Demo
 ===========================
 
+![signin](docs/ui1.png) ![createnew](docs/ui2.png)
+
 The aim of this project is to demonstrate the use of AWS Cognito for basic client-side authentication using plain Javascript. The features include:
 
 - Sign in
