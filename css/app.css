@@ -1,0 +1,19 @@
+.log-in-form, .custom-card-style, .registration-form, .verification-form, .reset-password-form {
+	margin: auto;
+	border: 1px solid #cacaca;
+	padding: 1rem;
+	border-radius: 0;
+	min-width: 320px;
+	max-width: 500px;
+	word-wrap: break-word;
+}
+
+#signinException p, #registerException p, #verificationException p {
+	color: red;
+	font-size: 80%;
+}
+
+.data-text {
+	font-family: "Courier New";
+	font-size: 0.8rem;
+}

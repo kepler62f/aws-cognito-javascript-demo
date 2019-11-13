@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <title>AWS Cognito Javacript Demo</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+</head>
+<body>
+    <div id="currentUserSessionContainer" class="card custom-card-style">
+        <div class="card-divider">
+            <h4>Current User Session</h4>
+        </div>
+        <div class="card-section">
+            <div class="grid-x">
+                <div class="cell medium-6 large-4"><strong>User Name:</strong></div>
+                <div id="cuscUserName" class="cell medium-6 large-8 data-text"></div>
+            </div>
+            <div class="grid-x">&nbsp;</div>
+            <div class="grid-x">
+                <div class="cell medium-6 large-4"><strong>JWT:</strong></div>
+                <div id="cuscUserJwt" class="cell medium-6 large-8 data-text"></div>
+            </div>
+        </div>
+        <div id="signOutButton" class="button">Sign Out</div>
+    </div>
+    <script>$(document).foundation();</script>
+    <script src="../public/js/bundle.js" charset="utf-8"></script>
+</body>
+</html>

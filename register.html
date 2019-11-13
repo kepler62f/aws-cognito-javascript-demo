@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <title>AWS Cognito Javacript Demo</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+</head>
+<body>
+    <form class="registration-form clearfix" id="registrationForm">
+        <h4 class="text-center">Create New Account</h4>
+        <label>Email
+            <input type="email" id="emailInputRegister" placeholder="somebody@example.com" required>
+        </label>
+        <label>Password<input type="password" id="passwordInputRegister" placeholder="Password" pattern=".*" required></label>
+        <label>Confirm Password<input type="password" id="password2InputRegister" placeholder="Password" pattern=".*" required></label>
+        <div id="registerException"></div>
+        <p><input type="submit" class="button expanded" value="Create Account" /></p>
+    </form>
+    <script>$(document).foundation();</script>
+    <script src="../public/js/bundle.js" charset="utf-8"></script>
+</body>
+</html>

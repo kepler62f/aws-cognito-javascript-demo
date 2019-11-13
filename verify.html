@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <title>AWS Cognito Javacript Demo</title>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+</head>
+<body>
+    <form class="verification-form clearfix" id="verificationForm">
+        <h4 class="text-center">Verify Email for New Account</h4>
+        <label>Email
+            <input type="email" id="emailInputVerify" placeholder="somebody@example.com" required>
+        </label>
+        <label>Verification Code<input type="text" id="codeInputVerify" placeholder="123456" required></label>
+        <div id="verificationException"></div>
+        <p><input type="submit" class="button expanded" value="Verify" /></p>
+    </form>
+    <script>$(document).foundation();</script>
+    <script src="../public/js/bundle.js" charset="utf-8"></script>
+</body>
+</html>
